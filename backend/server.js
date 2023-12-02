@@ -10,7 +10,7 @@ const routes= require('./Routes/routes')
 // middleware
 app.use(cors(
    {
-    origin:["http://localhost:3000","https://mern-task-app.onrender.com"]
+    origin:["http://localhost:3000","https://mern-task-app-nq3n.onrender.com"]
    }
 ))
 app.use(express.json())
